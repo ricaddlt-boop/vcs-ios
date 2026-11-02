@@ -1,0 +1,125 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void WheelCollider_get_center_mE21895BF5F8C9C2523B9468B2C9DA88737A4E163 (void);
+extern void WheelCollider_get_radius_m68CC3DE301E0C6226E85F99D853365DA1244CD1F (void);
+extern void WheelCollider_get_suspensionDistance_mD1EE97B03FB1E744BCF24DC988806F52AE98A55F (void);
+extern void WheelCollider_set_suspensionDistance_mED5D19A954DD3C7030B4D336466BF0EA1BB20348 (void);
+extern void WheelCollider_get_suspensionSpring_m046582E587BF5AC228C2022D25A822BC4B4B9543 (void);
+extern void WheelCollider_set_suspensionSpring_m2E4ACAB8BE03081A58E217DAE84819CFA51A82B7 (void);
+extern void WheelCollider_get_mass_mD45E3CDD818D42BE6FD1AFC9EB8B3993F36F2628 (void);
+extern void WheelCollider_set_mass_mD6C319FDA15773358ACC232179C404D16938468E (void);
+extern void WheelCollider_get_forwardFriction_mB0B8AB7668623F8646FFB1E6CD81E540B6EE51B0 (void);
+extern void WheelCollider_set_forwardFriction_m1932872F22DD4D5584C0D14FBDCD56848F111510 (void);
+extern void WheelCollider_get_sidewaysFriction_m7924ABBBB268B7F1FD8630733B6375CAFC2621E8 (void);
+extern void WheelCollider_set_sidewaysFriction_mB2062696F29B4275C7F5B2874FD333ECD2325DA8 (void);
+extern void WheelCollider_set_motorTorque_m4958AAF7D867CF7570420F9BAFAF04DC904F02A8 (void);
+extern void WheelCollider_set_brakeTorque_mB9B216C57C275470907C7DB35185E2F192DC8DAB (void);
+extern void WheelCollider_set_steerAngle_m7BF83B27D8956355F873537939BE9F35CF3113C3 (void);
+extern void WheelCollider_get_isGrounded_mA24C86DA670A02E01ACE176B4AF30F801244F327 (void);
+extern void WheelCollider_get_rpm_m7AFAA813ED3965AE4B2A2E7CBC6FB2B26B68ED52 (void);
+extern void WheelCollider_ConfigureVehicleSubsteps_mE2D86B3F981158E554EBD8F79F255F359EBD1488 (void);
+extern void WheelCollider_GetWorldPose_m8C41FA2AE9ED543AB94A6E3226523A2FE83FA890 (void);
+extern void WheelCollider_GetGroundHit_mCB73878577BC5AAEBEA8572FA62326C4C71B3EF2 (void);
+extern void WheelCollider__ctor_mD44B2C97960274797DABD055BBEB18E664DAD906 (void);
+extern void WheelCollider_get_center_Injected_m5F830D14320A88078EF056E5D83599CCD023D6F5 (void);
+extern void WheelCollider_get_suspensionSpring_Injected_mDFEF80392DFDA3DDCD0B19BFE18F34D229AE22FB (void);
+extern void WheelCollider_set_suspensionSpring_Injected_m5A1DA63E7226CBB700642005FC0C23C40406482F (void);
+extern void WheelCollider_get_forwardFriction_Injected_mB8145EF60E5E0CFB03E4374DA9622192F657D0F2 (void);
+extern void WheelCollider_set_forwardFriction_Injected_mB3FA9425FEC0B0217C2A3EB62FCBF4DBA278C205 (void);
+extern void WheelCollider_get_sidewaysFriction_Injected_m18A6CB2191D1CE62B131E11BFB5308F8A9C6FCD1 (void);
+extern void WheelCollider_set_sidewaysFriction_Injected_mFE019F748A809846714267E3AA9DB8C49616A1A9 (void);
+static Il2CppMethodPointer s_methodPointers[28] = 
+{
+	WheelCollider_get_center_mE21895BF5F8C9C2523B9468B2C9DA88737A4E163,
+	WheelCollider_get_radius_m68CC3DE301E0C6226E85F99D853365DA1244CD1F,
+	WheelCollider_get_suspensionDistance_mD1EE97B03FB1E744BCF24DC988806F52AE98A55F,
+	WheelCollider_set_suspensionDistance_mED5D19A954DD3C7030B4D336466BF0EA1BB20348,
+	WheelCollider_get_suspensionSpring_m046582E587BF5AC228C2022D25A822BC4B4B9543,
+	WheelCollider_set_suspensionSpring_m2E4ACAB8BE03081A58E217DAE84819CFA51A82B7,
+	WheelCollider_get_mass_mD45E3CDD818D42BE6FD1AFC9EB8B3993F36F2628,
+	WheelCollider_set_mass_mD6C319FDA15773358ACC232179C404D16938468E,
+	WheelCollider_get_forwardFriction_mB0B8AB7668623F8646FFB1E6CD81E540B6EE51B0,
+	WheelCollider_set_forwardFriction_m1932872F22DD4D5584C0D14FBDCD56848F111510,
+	WheelCollider_get_sidewaysFriction_m7924ABBBB268B7F1FD8630733B6375CAFC2621E8,
+	WheelCollider_set_sidewaysFriction_mB2062696F29B4275C7F5B2874FD333ECD2325DA8,
+	WheelCollider_set_motorTorque_m4958AAF7D867CF7570420F9BAFAF04DC904F02A8,
+	WheelCollider_set_brakeTorque_mB9B216C57C275470907C7DB35185E2F192DC8DAB,
+	WheelCollider_set_steerAngle_m7BF83B27D8956355F873537939BE9F35CF3113C3,
+	WheelCollider_get_isGrounded_mA24C86DA670A02E01ACE176B4AF30F801244F327,
+	WheelCollider_get_rpm_m7AFAA813ED3965AE4B2A2E7CBC6FB2B26B68ED52,
+	WheelCollider_ConfigureVehicleSubsteps_mE2D86B3F981158E554EBD8F79F255F359EBD1488,
+	WheelCollider_GetWorldPose_m8C41FA2AE9ED543AB94A6E3226523A2FE83FA890,
+	WheelCollider_GetGroundHit_mCB73878577BC5AAEBEA8572FA62326C4C71B3EF2,
+	WheelCollider__ctor_mD44B2C97960274797DABD055BBEB18E664DAD906,
+	WheelCollider_get_center_Injected_m5F830D14320A88078EF056E5D83599CCD023D6F5,
+	WheelCollider_get_suspensionSpring_Injected_mDFEF80392DFDA3DDCD0B19BFE18F34D229AE22FB,
+	WheelCollider_set_suspensionSpring_Injected_m5A1DA63E7226CBB700642005FC0C23C40406482F,
+	WheelCollider_get_forwardFriction_Injected_mB8145EF60E5E0CFB03E4374DA9622192F657D0F2,
+	WheelCollider_set_forwardFriction_Injected_mB3FA9425FEC0B0217C2A3EB62FCBF4DBA278C205,
+	WheelCollider_get_sidewaysFriction_Injected_m18A6CB2191D1CE62B131E11BFB5308F8A9C6FCD1,
+	WheelCollider_set_sidewaysFriction_Injected_mFE019F748A809846714267E3AA9DB8C49616A1A9,
+};
+static const int32_t s_InvokerIndices[28] = 
+{
+	4799,
+	4757,
+	4757,
+	3935,
+	4695,
+	3882,
+	4757,
+	3935,
+	4809,
+	3982,
+	4809,
+	3982,
+	3935,
+	3935,
+	3935,
+	4637,
+	4757,
+	1188,
+	1771,
+	2727,
+	4807,
+	3811,
+	3811,
+	3811,
+	3811,
+	3811,
+	3811,
+	3811,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VehiclesModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_VehiclesModule_CodeGenModule = 
+{
+	"UnityEngine.VehiclesModule.dll",
+	28,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
